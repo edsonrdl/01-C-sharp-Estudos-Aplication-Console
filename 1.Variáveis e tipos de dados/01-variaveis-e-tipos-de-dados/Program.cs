@@ -1,4 +1,6 @@
-﻿using System;
+﻿using _03.Operadores_aritméticos;
+using _04.Operadores_lógicos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +12,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        _01_tipos_de_dados_primitivos minhaInstancia = new _01_tipos_de_dados_primitivos();
-        minhaInstancia.exibirVariavel();
+        _04_operadores_lógicos minhaInstancia = new _04_operadores_lógicos();
+        minhaInstancia.exibirResultado();
     }
 }
