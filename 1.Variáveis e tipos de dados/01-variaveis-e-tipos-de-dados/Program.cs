@@ -1,4 +1,5 @@
 ﻿
+using _01_variaveis_e_tipos_de_dados._02_tipos_de_dados_personalizados;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        conversão_de_tipos minhaInstancia = new conversão_de_tipos();
+        EnumOrderStatus minhaInstancia = new EnumOrderStatus();
         minhaInstancia.exibirResultado();
     }
 }
