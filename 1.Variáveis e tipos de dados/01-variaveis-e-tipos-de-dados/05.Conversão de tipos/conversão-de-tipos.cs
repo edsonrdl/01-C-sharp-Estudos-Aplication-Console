@@ -3,7 +3,10 @@
 public class conversão_de_tipos {
     public void exibirResultado()
     {
-        
+        float n1 = 10.5f;  //    tipo1 variavel=valor -->tipo2  variavelNova=(tipo)variavel     variavelNova=novoValor
+        int n2=(int)n1;//tipo cast   vai mudar float 10.5 para valor inteiro int 10
+        Console.WriteLine(n2);
+
         string s1 = "123";
         int i1 = Convert.ToInt32(s1);//Neste exemplo, a variável s contém uma string que representa um valor inteiro. Para converter essa string em um valor int, usamos o método Convert.ToInt32() da classe Convert.O resultado é armazenado na variável i1.
         Console.WriteLine(s1);
