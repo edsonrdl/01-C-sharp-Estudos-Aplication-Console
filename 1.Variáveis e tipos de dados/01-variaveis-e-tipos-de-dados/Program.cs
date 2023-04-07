@@ -1,5 +1,4 @@
-﻿using _03.Operadores_aritméticos;
-using _04.Operadores_lógicos;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +11,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        _04_operadores_lógicos minhaInstancia = new _04_operadores_lógicos();
+        conversão_de_tipos minhaInstancia = new conversão_de_tipos();
         minhaInstancia.exibirResultado();
     }
 }
