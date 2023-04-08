@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        _01_Condicional_if minhaInstancia = new _01_Condicional_if();
+        _02_Condicional_switch minhaInstancia = new _02_Condicional_switch();
         minhaInstancia.exibirResultado();
     }
 }
