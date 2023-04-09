@@ -10,8 +10,8 @@ namespace _02_Estruturas_de_controle_de_fluxo._02_Loops
     {
         public void exibirResultado()
         {
-            int num = 10;
-          for (int i = 0; i <= num; i++) //Equivalentes i=i+1  i+=1  i++
+            int num1 = 10;
+          for (int i = 0; i <= num1; i++) //Equivalentes i=i+1  i+=1  i++
             {
                 Console.WriteLine(i);
             }
