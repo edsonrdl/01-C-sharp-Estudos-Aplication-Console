@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        _01_loop_for minhaInstancia = new _01_loop_for();
+        _04_ForEach minhaInstancia = new _04_ForEach();
         minhaInstancia.exibirResultado();
     }
 }
