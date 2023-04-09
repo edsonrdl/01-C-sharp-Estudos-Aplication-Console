@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _02_Estruturas_de_controle_de_fluxo._02_Loops
 {
-    internal class _01_loop_for
+    public class _01_loop_for
     {
+        public void exibirResultado()
+        {
+            int num = 10;
+          for (int i = 0; i <= num; i++) //Equivalentes i=i+1  i+=1  i++
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
