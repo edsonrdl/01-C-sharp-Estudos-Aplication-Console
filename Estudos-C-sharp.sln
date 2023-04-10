@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-variaveis-e-tipos-de-dad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Estruturas-de-controle-de-fluxo", "2.Estruturas de controle de fluxo\02-Estruturas-de-controle-de-fluxo\02-Estruturas-de-controle-de-fluxo.csproj", "{9B509632-9426-41FC-8485-14EA733D9640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Array-classes-e-objetos", "3.Array,classes e objetos\03-Array-classes-e-objetos\03-Array-classes-e-objetos.csproj", "{C7DE7093-C2CC-4696-B6A2-A19F848F08C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-Array", "3.Array,classes e objetos\03-Array-classes-e-objetos\03-Array.csproj", "{C7DE7093-C2CC-4696-B6A2-A19F848F08C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03_Array_classes_e_objetos
+﻿namespace _03_Array._02_array_utilizando_matrizes
 {
-    internal class _01_array_adicionando_matrizes
+    public class _01_array_adicionando_matrizes
     {
         public void exibirResultado()
         {

@@ -1,10 +1,12 @@
-﻿namespace _03_Array_classes_e_objetos;
+﻿using _03_Array._04_parametros;
+
+namespace _03_Array;
 
 class Program
 {
     static void Main(string[] args)
     {
-        _01_array_adicionando_matrizes minhaInstancia = new _01_array_adicionando_matrizes();
+        _03_Parametro_params minhaInstancia = new _03_Parametro_params();
         minhaInstancia.exibirResultado();
     }
 }

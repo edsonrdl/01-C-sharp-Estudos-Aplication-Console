@@ -1,4 +1,4 @@
-﻿namespace _03_Array_classes_e_objetos._01_declaracao_array
+﻿namespace _03_Array._01_declaracao_array
 {
     public class _01_declaracao_array   
     {
