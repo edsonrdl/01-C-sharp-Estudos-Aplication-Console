@@ -2,8 +2,8 @@
 {
     public class Cliente
     {
-        public string Nome { get; set; }
-        public string Sobrenome { get; set; }
+        public string Nome;
+        public string Sobrenome;
 
         public Cliente(string nome, string sobrenome)
         {
@@ -11,7 +11,8 @@
             Sobrenome = sobrenome;
         }
 
-        public string NomeCompleto()
+
+        public string exibirResultado()
         {
             return Nome + " " + Sobrenome;
         }
