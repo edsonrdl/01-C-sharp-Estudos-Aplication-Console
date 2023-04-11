@@ -12,7 +12,7 @@
         }
 
 
-        public string exibirResultado()
+        public string ExibirResultado()
         {
             return Nome + " " + Sobrenome;
         }

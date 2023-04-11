@@ -1,9 +1,6 @@
-﻿using _04_Classes_e_objetos._04_Construtores;
+﻿using _04_Classes_e_objetos;
 
-var minhaInstancia = new Cliente1("Monkey", "D. Luffy");
-var nomeCompleto = minhaInstancia.exibirResultado();
-Console.WriteLine(nomeCompleto);
+var teste = new Calcular(2, 3,4,5);
+Console.WriteLine(teste.ExibirResultado());
 
-var minhaInstancia1 = new Cliente1();
- minhaInstancia1.exibirResultado1();
-Console.WriteLine(minhaInstancia1.Titulo);
+

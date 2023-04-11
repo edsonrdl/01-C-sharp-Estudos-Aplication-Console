@@ -17,19 +17,16 @@ namespace _04_Classes_e_objetos._04_Construtores
         {
             Titulo = "Capitão";
         }
-
         public Cliente1(string nome, string sobrenome)
         {
             Nome = nome;
             Sobrenome = sobrenome;
         }
-
-        
-        public string exibirResultado()
+        public string ExibirResultado()
         {
             return Nome + " " + Sobrenome;
         }
-        public string exibirResultado1()
+        public string ExibirResultado1()
         { 
            return Titulo;
         }
