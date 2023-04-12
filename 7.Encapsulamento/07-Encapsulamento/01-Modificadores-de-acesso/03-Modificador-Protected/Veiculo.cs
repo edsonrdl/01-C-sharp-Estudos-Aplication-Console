@@ -57,7 +57,6 @@
 
         public override void MostrarInformacoes()
         {
-            Console.WriteLine("Modelo Caminhão");
             base.MostrarInformacoes();
         }
     }
