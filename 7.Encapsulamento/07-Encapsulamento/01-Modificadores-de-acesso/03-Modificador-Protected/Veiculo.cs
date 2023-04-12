@@ -2,7 +2,7 @@
 {
     public  class Veiculo
     {
-        // Atributos utilizando protected ,podem ser acessados dentro da class base e derivadas
+        //Atributos utilizando protected ,podem ser acessados dentro da class base e derivadas
         private string Modelo;
         private string Marca;
         protected int VelocidadeMax;
@@ -21,11 +21,8 @@
             Preco = preco;
             Rodas = rodas;
             Ligado = ligado;
-
-
         }
 
-        // Métodos
         public  string Ligar()
         {
             return (Ligado ? "Está Sim" : "Não Está");
@@ -36,8 +33,6 @@
             Console.WriteLine($" Modelo:{Modelo}\n Marca:{Marca}\n Ano:{Ano}\n Preço:{Preco:C}");
         }
     }
-
-    //class Carro devira da class veiculo que é a base
     public class Carro : Veiculo
     {
         public Carro(string modelo, string marca,int velocidadeMax, int ano, float preco,bool ligado) : base(modelo, marca,velocidadeMax ,ano, preco, 4,ligado)
@@ -48,7 +43,6 @@
             base.MostrarInformacoes();
         }
     }
-    //class Caminhão devira da class veiculo que é a base
     public class Caminhao : Veiculo
     {
         public Caminhao(string modelo, string marca, int velocidadeMax, int ano, float preco, bool ligado) : base(modelo, marca, velocidadeMax, ano, preco, 12,ligado)
