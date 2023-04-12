@@ -1,4 +1,4 @@
-﻿namespace _07_Encapsulamento._01_Modificadores_de_acesso._03_Modificador_Protected
+﻿namespace _07_Encapsulamento._01_Modificadores_de_acesso._05_Modificador_Sealed
 {
     public  class Veiculo
     {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _04_Classes_e_objetos._04_Construtores
+﻿namespace _04_Classes_e_objetos._04_Construtores._02_sobrecarga_construtores
 {
     public class Cliente1
     {

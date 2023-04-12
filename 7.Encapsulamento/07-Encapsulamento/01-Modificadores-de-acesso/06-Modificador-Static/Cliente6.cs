@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _04_Classes_e_objetos
+﻿namespace _07_Encapsulamento._01_Modificadores_de_acesso._06_Modificador_Static
 {
      static public class Cliente6  
     {
