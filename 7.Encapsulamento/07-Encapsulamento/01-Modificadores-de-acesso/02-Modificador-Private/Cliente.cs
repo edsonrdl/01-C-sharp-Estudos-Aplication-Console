@@ -55,5 +55,5 @@
     }
     //A palavra-chave private em C# é outro modificador de acesso que indica que um membro (método, propriedade, campo ou evento) de uma classe
     //Só é acessível dentro da própria classe. Ou seja, membros declarados como private não podem ser acessados por outras classes ou objetos.
-    //Só vai poder acessar usando os métodos de acesso
+    //Só vai poder acessar usando os métodos de acesso.
 }

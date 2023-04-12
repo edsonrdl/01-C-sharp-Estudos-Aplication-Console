@@ -1,4 +1,4 @@
-﻿namespace _06_Polimorfismo._02_Classes_abstratas
+﻿namespace _07_Encapsulamento._01_Modificadores_de_acesso._04_Modificador_Abstract
 {
    abstract public class Veiculo 
        //Classes abstract não podem serm instânciados apenas herdados e os métodos abstract são obrigados a serem utilizados
