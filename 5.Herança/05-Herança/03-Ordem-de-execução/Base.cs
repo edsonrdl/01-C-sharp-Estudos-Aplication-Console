@@ -2,7 +2,7 @@
 {
     public class Base
     {
-        public void ExibiResultado()
+        public void ExibirResultado()
         {
             Console.WriteLine("Base");
         }
@@ -10,16 +10,20 @@
 
     public class Devirada1 : Base
     {
-        public void ExibiResultado()
+        public void ExibiResultado1()
         {
             Console.WriteLine("Derivada 1");
+            base.ExibirResultado();
         }
     }
     public class Devirada2 : Devirada1
     {
-        public void ExibiResultado()
+        public void ExibirResultado()
         {
             Console.WriteLine("Derivada 2");
+            base.ExibirResultado();
+            
+
         }
     }
 }
