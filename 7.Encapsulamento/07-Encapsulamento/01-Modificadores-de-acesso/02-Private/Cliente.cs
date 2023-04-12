@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
-
-namespace _07_Encapsulamento._01_Modificadores_de_acesso
+﻿namespace _07_Encapsulamento._01_Modificadores_de_acesso._02_Private
 {
-     class ClientePrivate
+     class Cliente
     {
         private string Nome;
 
@@ -17,7 +10,7 @@ namespace _07_Encapsulamento._01_Modificadores_de_acesso
 
         private string Telefone;
        
-       public ClientePrivate(string nome, string sobrenome)
+       public Cliente(string nome, string sobrenome)
         {
             Nome = nome;
             Sobrenome = sobrenome;
@@ -53,7 +46,7 @@ namespace _07_Encapsulamento._01_Modificadores_de_acesso
         }
 
      
-        public void InforClientePrivate()
+        public void InforCliente()
         {
             Console.WriteLine("Exibir informações  {0} {1} {2} {3}",GetNome(),GetSobrenome(), GetEndereco(),GetTelefone());
         }

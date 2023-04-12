@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _07_Encapsulamento
+﻿namespace _07_Encapsulamento._01_Modificadores_de_acesso._01_Public
 {
-    public class ClientePublic
+    public class Cliente
     {
         public string Nome;
 
@@ -17,12 +11,12 @@ namespace _07_Encapsulamento
         public string Telefone;
 
 
-        public ClientePublic(string nome, string sobrenome)
+        public Cliente(string nome, string sobrenome)
         {
             Nome = nome;
             Sobrenome = sobrenome;
         }
-        public  ClientePublic()
+        public  Cliente()
         {
             Endereco = "Qualquer lugar";
             Telefone = "11291793984" ;
