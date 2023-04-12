@@ -1,7 +1,8 @@
-﻿namespace _07_Encapsulamento._01_Modificadores_de_acesso._01_Public
+﻿namespace _07_Encapsulamento._01_Modificadores_de_acesso._01_Modificador_Public
 {
     public class Cliente
     {
+        // Atributos utilizando public podem ser acessados por qualquer lugar fora da class 
         public string Nome;
 
         public string Sobrenome;

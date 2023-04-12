@@ -1,7 +1,8 @@
-﻿namespace _07_Encapsulamento._01_Modificadores_de_acesso._02_Private
+﻿namespace _07_Encapsulamento._01_Modificadores_de_acesso._02_Modificador_Private
 {
      class Cliente
     {
+        // Atributos utilizando private podem ser acessados apenas dentros da própria class 
         private string Nome;
 
         private string Sobrenome;
