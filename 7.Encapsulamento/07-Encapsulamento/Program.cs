@@ -1,14 +1,7 @@
 ﻿using _07_Encapsulamento._01_Modificadores_de_acesso;
+using _07_Encapsulamento._01_Modificadores_de_acesso._02_Private;
 
-var exibirInformações = new ClientePrivate("Fulano", "Ciclano");
 
-exibirInformações.InforClientePrivate();
-
-exibirInformações.SetNome("Francisca");
-
-exibirInformações.SetSobrenome("Francisquinha");
-
-exibirInformações.InforClientePrivate();
 
 
 
