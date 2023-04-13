@@ -1,11 +1,4 @@
-﻿ using _08_Interfaces._01_Declaracao_de_interfaces;
+﻿using _08_Interfaces._02_Implementando_interface;
 
- Pessoa pessoa = new Pessoa("",0,"","","","");
-
-
-     pessoa.Nome();
-     pessoa.Idade();
-     pessoa.Logradouro();
-     pessoa.Numero();
-     pessoa.Cidade();
-     pessoa.Estado();
+var teste=new Pessoa();
+teste.Nome="Luffy";
