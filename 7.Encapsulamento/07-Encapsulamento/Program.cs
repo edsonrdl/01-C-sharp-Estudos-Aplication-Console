@@ -1,6 +1,6 @@
 ﻿
-
-using _07_Encapsulamento._02_Propriedades_de_acesso._02_Set;
+using _07_Encapsulamento._03_Indexadores;
 
 var teste= new Dirigir();
-teste.IdadeAcessar = 15;
+//teste[0] = 1;
+Console.WriteLine("Exibir informações {0} ", teste[0]);
