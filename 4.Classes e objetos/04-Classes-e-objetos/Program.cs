@@ -1,6 +1,7 @@
-﻿using _04_Classes_e_objetos._03_Metodos._02_Métodos_que_retornam_objetos;
+﻿using _04_Classes_e_objetos._03_Metodos._05_Delegates;
 
-var carro1 = new Veiculo("Camaro");
-carro1.CriarCarro();
+int dobrar;
+OP delegateTeste = new OP(DobrarNumeros.Dobro);
+ Console.WriteLine(dobrar = delegateTeste(4));
 
 
