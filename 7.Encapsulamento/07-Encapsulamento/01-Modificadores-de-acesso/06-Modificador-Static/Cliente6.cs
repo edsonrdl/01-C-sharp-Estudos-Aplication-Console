@@ -17,5 +17,5 @@
         }
 
     }
-     //Static não permite criar estância
+     //Static não permite criar instância
 }
