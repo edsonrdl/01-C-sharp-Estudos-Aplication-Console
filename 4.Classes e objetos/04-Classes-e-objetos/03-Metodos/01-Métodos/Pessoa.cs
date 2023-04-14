@@ -1,4 +1,4 @@
-﻿namespace _04_Classes_e_objetos._03_Metodos
+﻿namespace _04_Classes_e_objetos._03_Metodos._01_Métodos
 {
       class Pessoa
     {

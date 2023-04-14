@@ -1,7 +1,6 @@
-﻿using _04_Classes_e_objetos;
-using _04_Classes_e_objetos._07_Utilizando_this;
+﻿using _04_Classes_e_objetos._03_Metodos._02_Métodos_que_retornam_objetos;
 
-var teste = new Calcular(2, 3,4,5);
-Console.WriteLine(teste.ExibirResultado());
+var carro1 = new Veiculo("Camaro");
+carro1.CriarCarro();
 
 
