@@ -1,4 +1,5 @@
-﻿using _13_LinkedList;
+﻿
+using _13_LinkedList._01_Coleção;
 
 var teste=new Veiculo();
-teste.LinkedListVeiculo();
+teste.LinkedListAddFirst();
