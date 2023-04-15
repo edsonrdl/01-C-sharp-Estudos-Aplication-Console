@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-Tratamento-excecoes", "9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-Dicionarios-declaracao", "12.Dicionários declaração\12-Dicionarios-declaracao\12-Dicionarios-declaracao.csproj", "{6603015F-F975-4B4C-B574-07C2D488445A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-LinkedList", "13.LinkedList\13-LinkedList\13-LinkedList.csproj", "{30A01211-A963-4CCC-BAEC-D8F9F8D62CAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{6603015F-F975-4B4C-B574-07C2D488445A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6603015F-F975-4B4C-B574-07C2D488445A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6603015F-F975-4B4C-B574-07C2D488445A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A01211-A963-4CCC-BAEC-D8F9F8D62CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A01211-A963-4CCC-BAEC-D8F9F8D62CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A01211-A963-4CCC-BAEC-D8F9F8D62CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A01211-A963-4CCC-BAEC-D8F9F8D62CAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
