@@ -23,11 +23,9 @@
                 Console.WriteLine(v1);
             }
             
-
-
         } 
         public void QueueDeQueue()
-        { //Enqueue adiciona na Fila o item sempre no final
+        { //Dequeue remove da fila o primeiro item 
             string[] v = new[] { "Caminhão", "Carro" };
             Queue<string> veiculo = new Queue<string>(v);
 

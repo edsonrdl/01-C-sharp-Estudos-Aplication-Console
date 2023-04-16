@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _04_Classes_e_objetos._01_Declaração_de_classes
+﻿namespace _04_Classes_e_objetos._01_Declaracao_de_classes
 {
     public class Pessoa
     {

@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08-Interfaces", "8.Interfac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-Tratamento-excecoes", "9.Tratamento de exceções\09-Tratamento-excecoes\09-Tratamento-excecoes.csproj", "{9646A103-D1E8-413D-BA8D-473D1E7C1FB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Colecoes", "11.Coleções\11-Colecoes\11-Colecoes.csproj", "{3FAA10CF-406E-4318-859A-0F27E4A09619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-Colecoes", "11.Coleções\11-Colecoes\11-Colecoes.csproj", "{3FAA10CF-406E-4318-859A-0F27E4A09619}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
