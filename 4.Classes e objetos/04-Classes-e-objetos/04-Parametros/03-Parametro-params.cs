@@ -1,4 +1,4 @@
-﻿namespace _04_Classes_e_objetos._08_Parametros
+﻿namespace _04_Classes_e_objetos._04_Parametros
 {
     internal class _03_Parametro_params
     {
