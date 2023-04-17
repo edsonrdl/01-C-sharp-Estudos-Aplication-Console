@@ -2,7 +2,7 @@
 {
     public  class Veiculo
     {
-        //Atributos utilizando protected ,podem ser acessados dentro da class base e derivadas
+        //Atributos utilizando sealed não podem ser herdados
         private string Modelo;
         private string Marca;
         protected int VelocidadeMax;

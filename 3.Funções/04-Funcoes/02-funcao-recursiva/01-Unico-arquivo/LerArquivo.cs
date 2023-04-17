@@ -16,7 +16,7 @@
 
         public void lerArquivo()
         {
-            ProcessarArquivo("C:\\Users\\edson\\Documents\\testes\\tripulacaoChapeuDepalha.txt");
+            ProcessarArquivo("D:\\Edson\\Estudos\\Programação\\back-end\\C-sharp-estudos\\arquivos para testes\\arq");
 
         }
       

@@ -1,10 +1,18 @@
-﻿namespace _04_Funcoes._02_funcao_recursiva._02_varios_arquivo
+﻿using System;
+using System.Configuration;
+using System.IO;
+
+namespace _05_POO_Classes_e_Objetos._08_Dados_em_arq.txt_teste._01_LendoArquivoTXT
 {
     public class LerArquivo
     {
+        private string CaminhoArquivo()
+        {
+            return ConfigurationManager.AppSettings["NomeClientes"];
+        }
         public void ProcessarArquivo(int NomeArquivo)
         {
-            string arquivoComCaminho = "D:\\Edson\\Estudos\\Programação\\back-end\\C-sharp-estudos\\arquivos para testes\\arq" + NomeArquivo + ".txt";
+            string arquivoComCaminho = CaminhoArquivo() + NomeArquivo + ".txt";
             if (File.Exists(arquivoComCaminho))
             {
                 using (StreamReader arquivo = File.OpenText(arquivoComCaminho))
@@ -16,7 +24,7 @@
                     }
                 }
             }
-            string arquivoComCaminho2 = "D:\\Edson\\Estudos\\Programação\\back-end\\C-sharp-estudos\\arquivos para testes\\arq" + (NomeArquivo + 1) + ".txt";
+            string arquivoComCaminho2 = CaminhoArquivo() + (NomeArquivo + 1) + ".txt";
             if (File.Exists(arquivoComCaminho2))
             {
                 ProcessarArquivo(NomeArquivo +1); 

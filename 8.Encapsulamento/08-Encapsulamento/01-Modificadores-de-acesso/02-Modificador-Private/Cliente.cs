@@ -2,7 +2,7 @@
 {
      class Cliente
     {
-        // Atributos utilizando private podem ser acessados apenas dentros da própria class 
+        // Atributos utilizando private podem ser acessados apenas dentro da própria class 
         private string Nome;
 
         private string Sobrenome;
