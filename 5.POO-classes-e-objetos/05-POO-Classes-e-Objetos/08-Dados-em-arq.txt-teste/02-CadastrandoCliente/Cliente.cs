@@ -21,7 +21,7 @@ namespace _05_POO_Classes_e_Objetos._08_Dados_em_arq.txt_teste._02_CadastrandoCl
             Cpf=cpf;
         }
 
-        public void GravarClienteDatabase()
+        public  void GravarClienteDatabase()
         {
             var clientes = Cliente.LerClientes();
             clientes.Add(this);
@@ -30,11 +30,11 @@ namespace _05_POO_Classes_e_Objetos._08_Dados_em_arq.txt_teste._02_CadastrandoCl
                 StreamWriter r = new StreamWriter(ArquivoDatabaseClientes());
                //  string conteudo = "Nome,Sobrenome,Cpf.\n";
                 // string conteudo = "Nome,Sobrenome,Cpf.";
-               r.WriteLine("Nome,Sobrenome,Cpf.");
+               r.WriteLine("Nome;Sobrenome;Cpf.");
                 foreach (Cliente Client in clientes)
                 {
                   //  conteudo += Client.Nome + "," + Client.Sobrenome + "," + Client.Cpf + "\n";
-                    var linha = Client.Nome + "," + Client.Sobrenome + "," + Client.Cpf;
+                    var linha = Client.Nome + ";" + Client.Sobrenome + ";" + Client.Cpf;
                     r.WriteLine(linha);
                 }
               //  File.WriteAllText(CaminhoBaseClientes(), conteudo);
@@ -46,13 +46,13 @@ namespace _05_POO_Classes_e_Objetos._08_Dados_em_arq.txt_teste._02_CadastrandoCl
         {
             var ListaDeClientes = Cliente.LerClientes();
 
-            foreach (var v in ListaDeClientes)
+        
+            foreach (var Client in ListaDeClientes)
             {
-                Console.WriteLine($"Nome:{v.Nome}\nSobrenome:{v.Sobrenome}\nCPF:{v.Cpf}");
+                Console.WriteLine($"Nome:{Client.Nome}\nSobrenome:{Client.Sobrenome}\nCPF:{Client.Cpf}");
 
             }
         }
-
 
         private static string ArquivoDatabaseClientes()
         {
@@ -74,7 +74,7 @@ namespace _05_POO_Classes_e_Objetos._08_Dados_em_arq.txt_teste._02_CadastrandoCl
                         i++;
                         if (i == 1) continue;
                         {
-                            var ClienteArquivo = linha.Split(',');
+                            var ClienteArquivo = linha.Split(';');
                             //por Construtor vazio
                             // var cliente = new Cliente();
                             //cliente.Nome=ClienteArquivo[0];
@@ -106,15 +106,7 @@ namespace _05_POO_Classes_e_Objetos._08_Dados_em_arq.txt_teste._02_CadastrandoCl
             var Cliente3 = new Cliente("Luciana", "Gomes", "444.444.444-44");
             Cliente3.GravarClienteDatabase();
 
-            var Clientes = Cliente.LerClientes();
-
-            foreach (Cliente Client in Clientes)
-            {
-                Console.WriteLine($"Nome:{Client.Nome}\nSobrenome:{Client.Sobrenome}\nCPF:{Client.Cpf}");
-            }
+          
         }
-
-
     }
-   
 }

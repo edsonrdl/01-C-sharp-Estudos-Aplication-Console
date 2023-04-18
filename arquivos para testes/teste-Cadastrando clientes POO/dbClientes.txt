@@ -1,4 +1,4 @@
-Nome,Sobrenome,Cpf.
-Maria,Souza,222.222.222-22
-Pedro,Ferreira,333.333.333-33
-Luciana,Gomes,444.444.444-44
+Nome;Sobrenome;Cpf.
+Maria;Souza;222.222.222-22
+Pedro;Ferreira;333.333.333-33
+Luciana;Gomes;444.444.444-44
