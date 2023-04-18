@@ -21,16 +21,16 @@ namespace _05_POO_Classes_e_Objetos._08_Dados_em_arq.txt_teste._02_CadastrandoCl
             Cpf=cpf;
         }
 
-        public void Gravar()
+        public void GravarClienteDatabase()
         {
             var clientes = Cliente.LerClientes();
             clientes.Add(this);
-            if (File.Exists(CaminhoBaseClientes()))
+            if (File.Exists(ArquivoDatabaseClientes()))
             {
-                StreamWriter r = new StreamWriter(CaminhoBaseClientes());
+                StreamWriter r = new StreamWriter(ArquivoDatabaseClientes());
                //  string conteudo = "Nome,Sobrenome,Cpf.\n";
                 // string conteudo = "Nome,Sobrenome,Cpf.";
-                r.WriteLine("Nome,Sobrenome,Cpf.");
+               r.WriteLine("Nome,Sobrenome,Cpf.");
                 foreach (Cliente Client in clientes)
                 {
                   //  conteudo += Client.Nome + "," + Client.Sobrenome + "," + Client.Cpf + "\n";
@@ -42,8 +42,19 @@ namespace _05_POO_Classes_e_Objetos._08_Dados_em_arq.txt_teste._02_CadastrandoCl
             }
 
         }
-     
-        private static string CaminhoBaseClientes()
+        public void ListaClientes()
+        {
+            var ListaDeClientes = Cliente.LerClientes();
+
+            foreach (var v in ListaDeClientes)
+            {
+                Console.WriteLine($"Nome:{v.Nome}\nSobrenome:{v.Sobrenome}\nCPF:{v.Cpf}");
+
+            }
+        }
+
+
+        private static string ArquivoDatabaseClientes()
         {
             return ConfigurationManager.AppSettings["DatabaseArquivoCadastro"];
         }
@@ -51,9 +62,9 @@ namespace _05_POO_Classes_e_Objetos._08_Dados_em_arq.txt_teste._02_CadastrandoCl
         public static List<Cliente> LerClientes()
         {
             var clientes = new List<Cliente>();
-            if (File.Exists(CaminhoBaseClientes()))
+            if (File.Exists(ArquivoDatabaseClientes()))
             {
-                using (StreamReader arquivo = File.OpenText(CaminhoBaseClientes()))
+                using (StreamReader arquivo = File.OpenText(ArquivoDatabaseClientes()))
                 {
 
                     string linha;
@@ -81,29 +92,19 @@ namespace _05_POO_Classes_e_Objetos._08_Dados_em_arq.txt_teste._02_CadastrandoCl
             }
             return clientes;
         }
-        public void Consultar()
-        {
-            var Clientes = Cliente.LerClientes();
-
-            foreach (var v in Clientes)
-            {
-                Console.WriteLine($"Nome:{v.Nome}\nSobrenome:{v.Sobrenome}\nCPF:{v.Cpf}");
-
-            }
-        }
 
         public void CriarCliente()
         {
             var Cliente1 = new Cliente("Maria", "Souza", "222.222.222-22");
-            Cliente1.Gravar();
+            Cliente1.GravarClienteDatabase();
 
 
             var Cliente2 = new Cliente("Pedro", "Ferreira", "333.333.333-33");
-            Cliente2.Gravar();
+            Cliente2.GravarClienteDatabase();
 
 
             var Cliente3 = new Cliente("Luciana", "Gomes", "444.444.444-44");
-            Cliente3.Gravar();
+            Cliente3.GravarClienteDatabase();
 
             var Clientes = Cliente.LerClientes();
 

@@ -9,7 +9,7 @@ namespace _05_POO_Classes_e_Objetos
         static void Main(string[] args)
         {
             var teste = new Cliente();
-            teste.Consultar();
+            teste.ListaClientes();
             Console.ReadLine();
         }
     }
