@@ -1,6 +1,6 @@
-﻿namespace _01_variaveis_e_tipos_de_dados
+﻿namespace _01_variaveis_e_tipos_de_dados._1._1.tipos_de_dados_primitivos
 {
-    public class _01_tipos_de_dados_primitivos
+    public class TiposDeDadosPrimitivos
     {
         public string nome = "Monkey D. Luffy";//tipo de dado que representa uma sequência de caracteres (texto).
 

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-variaveis-e-tipos-de-dados", "1.Variáveis e tipos de dados\01-variaveis-e-tipos-de-dados\01-variaveis-e-tipos-de-dados.csproj", "{3C644E7E-0684-441C-B497-5BA4382F0238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.variaveis e tipos de dados", "1.Variáveis e tipos de dados\01-variaveis-e-tipos-de-dados\1.variaveis e tipos de dados.csproj", "{3C644E7E-0684-441C-B497-5BA4382F0238}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Estruturas-de-controle-de-fluxo", "2.Estruturas de controle de fluxo\02-Estruturas-de-controle-de-fluxo\02-Estruturas-de-controle-de-fluxo.csproj", "{9B509632-9426-41FC-8485-14EA733D9640}"
 EndProject

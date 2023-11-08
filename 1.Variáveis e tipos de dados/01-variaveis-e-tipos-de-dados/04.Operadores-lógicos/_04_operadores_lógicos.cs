@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace _04.Operadores_lógicos
+﻿namespace _01_variaveis_e_tipos_de_dados._04.Operadores_lógicos
 {
     public class _04_operadores_lógicos
     {

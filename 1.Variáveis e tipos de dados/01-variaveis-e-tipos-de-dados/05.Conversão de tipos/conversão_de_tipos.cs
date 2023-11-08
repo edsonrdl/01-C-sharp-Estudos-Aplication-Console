@@ -1,4 +1,4 @@
-﻿namespace _01_variaveis_e_tipos_de_dados;
+﻿namespace _01_variaveis_e_tipos_de_dados._05.Conversão_de_tipos;
 
 public class conversão_de_tipos {
     public void exibirResultado()

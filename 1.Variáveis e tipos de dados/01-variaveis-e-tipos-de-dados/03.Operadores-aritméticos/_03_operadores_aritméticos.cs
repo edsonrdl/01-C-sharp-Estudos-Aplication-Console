@@ -1,4 +1,4 @@
-﻿namespace _03.Operadores_aritméticos
+﻿namespace _01_variaveis_e_tipos_de_dados._03.Operadores_aritméticos
 {
     public class _03_operadores_aritméticos
     {
